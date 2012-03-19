@@ -1,0 +1,59 @@
+@import 'compass';
+
+$blue:#708C87;
+$margin:5%;
+$cream:#F2EFEB;
+$cream2:$cream - 100;
+$dark:#333;
+
+
+body { background:#262626; font-family:helvetica, ariel, sans-serif; }
+header {margin:20px 0 0 $margin;
+	h1 {color:$blue;}
+	h2 {color:$blue; margin:10px $margin + 5%;}
+}
+p { margin:20px $margin;}
+
+a {color:$blue - 100;}
+
+ 
+.grad {
+  @include border-radius(20px 5px 10px 40px);
+  padding:1%;
+  @include background-image(linear-gradient($cream, $cream2));
+  .intro { background:fade-out(#333,0.7); color:#aaa;
+    width:round(percentage(550px / 1440px)); float:left;
+
+  }
+  .feature { @extend .intro; width:round(percentage(890px / 1440px)); float:right;}
+}
+ul.social-links li { list-style:none;
+  a { display:block; float:left; width:65px;height:65px; text-indent:-999px;}
+}
+
+$icons:(twitter,facebook,youtube,rss);
+@each $social in $icons {
+  .#{$social} { background:url('../img/#{$social}.png') no-repeat; }
+}
+@function text-contrast($background) {
+  @if lightness($background) < 50% {
+    @return lighten($background, 90%);
+ } @else {
+    @return darken($background, 90%);
+ }
+}
+@each $p in (
+  one black,
+  two black + 20,
+  three white,
+  four white - 40
+) {
+  .#{nth($p,1)} { background:nth($p,2); color:text-contrast(nth($p,2));}
+}
+
+
+
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
