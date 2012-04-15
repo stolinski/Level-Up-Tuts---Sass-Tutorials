@@ -1,0 +1,43 @@
+/* line 34, ../sass/style2.scss */
+.circle {
+  width: 200px;
+  height: 200px;
+  background: #999999;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  display: block; }
+  /* line 35, ../sass/style2.scss */
+  .circle:hover {
+    background: black; }
+
+/* line 38, ../sass/style2.scss */
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-left: 100px solid red;
+  display: block; }
+
+/* line 40, ../sass/style2.scss */
+.ir {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent; }
+
+/* line 42, ../sass/style2.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+/* line 43, ../sass/style2.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 44, ../sass/style2.scss */
+.clearfix {
+  *zoom: 1; }

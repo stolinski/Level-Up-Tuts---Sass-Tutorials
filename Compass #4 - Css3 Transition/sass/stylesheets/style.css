@@ -1,0 +1,149 @@
+/* line 10, ../sass/style.scss */
+body {
+  background: #262626;
+  font-family: helvetica, ariel, sans-serif;
+}
+
+/* line 11, ../sass/style.scss */
+header {
+  margin: 20px 0 0 5%;
+}
+/* line 12, ../sass/style.scss */
+header h1 {
+  color: #708c87;
+}
+/* line 13, ../sass/style.scss */
+header h2 {
+  color: #708c87;
+  margin: 10px 10%;
+}
+
+/* line 15, ../sass/style.scss */
+p {
+  margin: 20px 5%;
+}
+
+/* line 16, ../sass/style.scss */
+a {
+  color: #0c2823;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -ms-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+/* line 20, ../sass/style.scss */
+a:hover {
+  background: white;
+}
+
+/* line 23, ../sass/style.scss */
+.grad {
+  -webkit-border-radius: 20px 5px 10px 40px;
+  -moz-border-radius: 20px 5px 10px 40px;
+  -ms-border-radius: 20px 5px 10px 40px;
+  -o-border-radius: 20px 5px 10px 40px;
+  border-radius: 20px 5px 10px 40px;
+  padding: 1%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2efeb), color-stop(100%, #8e8b87));
+  background-image: -webkit-linear-gradient(#f2efeb, #8e8b87);
+  background-image: -moz-linear-gradient(#f2efeb, #8e8b87);
+  background-image: -o-linear-gradient(#f2efeb, #8e8b87);
+  background-image: -ms-linear-gradient(#f2efeb, #8e8b87);
+  background-image: linear-gradient(#f2efeb, #8e8b87);
+}
+/* line 27, ../sass/style.scss */
+.grad .intro, .grad .feature {
+  background: rgba(51, 51, 51, 0.3);
+  color: #aaa;
+  width: 38%;
+  float: left;
+}
+/* line 31, ../sass/style.scss */
+.grad .feature {
+  width: 62%;
+  float: right;
+}
+
+/* line 33, ../sass/style.scss */
+ul.social-links li {
+  list-style: none;
+}
+/* line 34, ../sass/style.scss */
+ul.social-links li a {
+  display: block;
+  float: left;
+  width: 65px;
+  height: 65px;
+  text-indent: -999px;
+}
+
+/* line 39, ../sass/style.scss */
+.twitter {
+  background: url("../img/twitter.png") no-repeat;
+}
+
+/* line 39, ../sass/style.scss */
+.facebook {
+  background: url("../img/facebook.png") no-repeat;
+}
+
+/* line 39, ../sass/style.scss */
+.youtube {
+  background: url("../img/youtube.png") no-repeat;
+}
+
+/* line 39, ../sass/style.scss */
+.rss {
+  background: url("../img/rss.png") no-repeat;
+}
+
+/* line 54, ../sass/style.scss */
+.one {
+  background: black;
+  color: #e6e6e6;
+}
+
+/* line 54, ../sass/style.scss */
+.two {
+  background: #141414;
+  color: #fafafa;
+}
+
+/* line 54, ../sass/style.scss */
+.three {
+  background: white;
+  color: #1a1a1a;
+}
+
+/* line 54, ../sass/style.scss */
+.four {
+  background: #d7d7d7;
+  color: black;
+}
+
+/* line 60, ../sass/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 61, ../sass/style.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 62, ../sass/style.scss */
+.clearfix {
+  *zoom: 1;
+}

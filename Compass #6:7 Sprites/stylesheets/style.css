@@ -1,0 +1,125 @@
+/* line 74, social/*.png */
+.social-sprite, .twitter, .facebook {
+  background: url('/img/social-s9940017f7e.png') no-repeat; }
+
+/* line 13, ../sass/style.scss */
+.twitter {
+  background-position: 0 -328px; }
+
+/* line 14, ../sass/style.scss */
+.facebook {
+  background-position: 0 -392px; }
+  /* line 43, ../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  .facebook:hover, .facebook.facebook_hover, .facebook.facebook-hover {
+    background-position: 0 -200px; }
+
+/* line 16, ../sass/style.scss */
+body {
+  background: #262626;
+  font-family: helvetica, ariel, sans-serif; }
+
+/* line 17, ../sass/style.scss */
+header {
+  margin: 20px 0 0 5%; }
+  /* line 18, ../sass/style.scss */
+  header h1 {
+    color: #708c87; }
+  /* line 19, ../sass/style.scss */
+  header h2 {
+    color: #708c87;
+    margin: 10px 10%; }
+
+/* line 21, ../sass/style.scss */
+p {
+  margin: 20px 5%; }
+
+/* line 22, ../sass/style.scss */
+a {
+  color: #0c2823;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -ms-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in; }
+  /* line 26, ../sass/style.scss */
+  a:hover {
+    color: white; }
+
+/* line 29, ../sass/style.scss */
+.grad {
+  -webkit-border-radius: 20px 5px 10px 40px;
+  -moz-border-radius: 20px 5px 10px 40px;
+  -ms-border-radius: 20px 5px 10px 40px;
+  -o-border-radius: 20px 5px 10px 40px;
+  border-radius: 20px 5px 10px 40px;
+  padding: 1%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2efeb), color-stop(100%, #8e8b87));
+  background-image: -webkit-linear-gradient(#f2efeb, #8e8b87);
+  background-image: -moz-linear-gradient(#f2efeb, #8e8b87);
+  background-image: -o-linear-gradient(#f2efeb, #8e8b87);
+  background-image: -ms-linear-gradient(#f2efeb, #8e8b87);
+  background-image: linear-gradient(#f2efeb, #8e8b87); }
+  /* line 33, ../sass/style.scss */
+  .grad .intro, .grad .feature {
+    background: rgba(51, 51, 51, 0.3);
+    color: #aaa;
+    width: 38%;
+    float: left; }
+  /* line 37, ../sass/style.scss */
+  .grad .feature {
+    width: 62%;
+    float: right; }
+
+/* line 39, ../sass/style.scss */
+ul.social-links li {
+  list-style: none; }
+  /* line 40, ../sass/style.scss */
+  ul.social-links li a {
+    display: block;
+    float: left;
+    width: 65px;
+    height: 65px;
+    text-indent: -999px; }
+
+/* line 61, ../sass/style.scss */
+.one {
+  background: black;
+  color: #e6e6e6; }
+
+/* line 61, ../sass/style.scss */
+.two {
+  background: #141414;
+  color: #fafafa; }
+
+/* line 61, ../sass/style.scss */
+.three {
+  background: white;
+  color: #1a1a1a; }
+
+/* line 61, ../sass/style.scss */
+.four {
+  background: #d7d7d7;
+  color: black; }
+
+/* line 67, ../sass/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+/* line 68, ../sass/style.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 69, ../sass/style.scss */
+.clearfix {
+  *zoom: 1; }
